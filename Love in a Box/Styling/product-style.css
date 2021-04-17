@@ -1,0 +1,449 @@
+#Top-Container {
+  background-color: #99f3bd;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-image: url(../Images/Background/bcg1.jpg);
+  background-size: cover;
+}
+
+#Bottom-Container {
+  background-color: #dddddd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#Skin-Care {
+  background-color: #7eca9c;
+}
+
+#Lip-Care{
+  background-color: #a3d2ca;
+}
+
+#Body-Care{
+  background-color: #ddffbc;
+}
+
+#Scented-Candles{
+  background-color: #289672;
+}
+
+#Hair-Care{
+  background-color: #9ede73;
+}
+
+#Handmade-Soaps{
+  background-color: #75cfb8;
+}
+
+
+.Body-Logo-Products {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  width: 500px;
+  height: 400px;
+padding-right: 150px;
+padding-left: 0px;
+
+}
+
+.navbar-brand {
+  padding-left: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Nav-Item {
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #f8f5f1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Nav-Item:hover {
+  color: #f0e3ca;
+}
+
+.CWP{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/*Footer*/
+.Footer {
+  background-color: #ff005c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Footer-Link {
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  size: 30px;
+}
+
+.Footer-Link:hover {
+  color: white;
+}
+
+.End-Line {
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Skin Care*/
+.SC {
+  padding-top: 60px;
+  padding-bottom: 30px;
+      font-family: 'Merriweather', serif;
+}
+
+.SC1 {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.SC2 {
+  position: relative;
+  top: 100px;
+  margin-bottom: 200px;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.SC3 {
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+.SCW1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.SCW2 {
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.SCW3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.SC-StayTuned{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/*Lip Care*/
+.LC {
+  padding-top: 60px;
+  padding-bottom: 30px;
+      font-family: 'Merriweather', serif;
+}
+
+.LC1 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.LC2 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.LC3 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.LC4 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.LC5 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.LCW1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.LCW2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.LCW3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.LCW4{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.LCW5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.LC-StayTuned{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+/*Body Care*/
+.BC {
+  padding-top: 60px;
+  padding-bottom: 30px;
+      font-family: 'Merriweather', serif;
+}
+
+.BC1 {
+  width: 200px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.BC2 {
+  width: 200px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.BCW1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.BCW2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.BC-StayTuned{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+/*Scented Candles*/
+.S {
+  padding-top: 60px;
+  padding-bottom: 30px;
+      font-family: 'Merriweather', serif;
+}
+
+.S1 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.S2 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.S3 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.SW1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.SW2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.SW3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.S-StayTuned{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Hair Care*/
+.HC {
+  padding-top: 60px;
+  padding-bottom: 30px;
+      font-family: 'Merriweather', serif;
+}
+
+.HC1 {
+  width: 300px;
+  height: 400px;
+}
+
+.HC2 {
+  width: 300px;
+  height: 400px;
+}
+
+.HC-StayTuned{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+/*Handmade Soaps*/
+.HS {
+  padding-top: 60px;
+  padding-bottom: 30px;
+      font-family: 'Merriweather', serif;
+}
+
+.HS1 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS2 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS3 {
+  width: 350px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS4 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS5 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS6 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS7 {
+  width: 250px;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.HS1W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.HS2W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.HS3W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.HS4W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+
+}
+
+.HS5W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.HS6W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.HS7W {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.HS-StayTuned{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+/*Buttons*/
+.btn2 {
+  padding-top: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn2:hover {
+  color: black;
+}
