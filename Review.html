@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Love In A Box-Your Review</title>
+  <link rel="stylesheet" href="Styling/review.css">
+  <link rel="Icon" href="Images/Logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/effbf7beaf.js" crossorigin="anonymous"></script>
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+</head>
+
+<body>
+  <center>
+    <h1 class="Main-Heading">Your Review</h1>
+      <h5 class="Home"><a class="HomeA" href="index.html"><i class="fas fa-home"></i> Home   </a>
+        <a class="ProductA" href="products.html"><i class="fas fa-box"></i>  Our Products </a>
+      </h5>
+  </center>
+  <section id="Top-Container">
+    <center>
+      <img class="Body-Logo-Products" src="Images/Logo.png" alt="Image Unavailable">
+    </center>
+
+
+  </section>
+  <section class="Middle Container">
+    <section class="HeadW">
+      <center>
+        <br>
+        <br>
+        <h3  class="ReviewW">Your Review is as valuable to us as are you. <br>It motivates and helps us to improve ourselves everytime. <br>
+        Please fill in the form below to share your views about our website.</h3>
+
+      </center>
+
+      <br>
+      <br>
+
+    </section>
+
+
+    <center>
+      <!-- Form -->
+    <section class="w3l-simple-contact-form1">
+      <div class="contact-form section-gap">
+        <div class="wrapper">
+          <div class="text-center">
+          <h1 class="RW"style="font-size: 40px; " >Your Review</h1>
+          <br>
+        </div>
+          <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+            <div class="form-mid">
+              <form action="javascript:sendmail()" method="post">
+                <div class="field">
+                  <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
+                </div>
+                <div class="field">
+                  <input type="email" class="form-control" name="Sender" id="Sender" placeholder="Email"
+                    required="">
+                </div>
+                <textarea name="Message" class="form-control" id="Message" placeholder="Message"
+                  required=""></textarea>
+                <button type="submit" class="btn btn-contact">Send Message</button>
+                <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /contact1 -->
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+
+       function sendmail(){
+
+  			var name = $('#Name').val();
+  			var email = $('#Sender').val();
+        var message = $('#Message').val();
+
+  			// var body = $('#body').val();
+
+  			var Body='Name: '+name+'<br>Email: '+email+'<br>Message: '+message;
+  			//console.log(name, phone, email, message);
+
+  			Email.send({
+          SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+  				To: 'iphoenix.web.dev@gmail.com',
+  				From: "iphoenix.demo@gmail.com",
+  				Subject: "New Review from "+name+"(Love In A Box)",
+  				Body: Body
+  			}).then(
+  				message =>{
+  					//console.log (message);
+  					if(message=='OK'){
+  					alert('Your Review has been sent.Thank you for connecting with Love In A Box.');
+  					}
+  					else{
+  						console.error (message);
+  						alert('There is error at sending message. ')
+
+  					}
+
+  				}
+  			);
+
+
+
+  		}
+
+
+      </script>
+   </script>
+
+  <!--End Section-->
+
+  <div class="Footer">
+    <center>
+      <!--<a class="Footer-Link" href="rmunmun800@gmail.com"><i class="fas fa-envelope"></i></a>-->
+      <a class="Footer-Link" href="https://www.facebook.com/Love_in_a_Box-100441458630877/"><i class="fab fa-facebook"></i></a>
+      <a class="Footer-Link" href="https://www.instagram.com/love_in_a_box_handmadeproducts/?hl=en"><i class="fab fa-instagram"></i></a>
+      <a class="Footer-Link" href="https://www.linkedin.com/in/munmun-roy-21894a1b8/"><i class="fab fa-linkedin"></i></a>
+      <p class="End-Line">© Love In A Box <br>© 2021 Suvrajeet Jash aka iPHOENIX <br>(Developer) <br>INDIA</p>
+
+    </center>
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>

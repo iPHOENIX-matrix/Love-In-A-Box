@@ -1,0 +1,275 @@
+/*Main Heading Style*/
+/*Index*/
+#Top-Container {
+  background-color: #99f3bd;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-image: url(../Images/Background/bcg1.jpg);
+  background-size: cover;
+}
+
+#Middle-Container {
+  background-color: #ccffbd;
+  padding-top: : 0px;
+  margin-top: 0px;
+}
+
+#Bottom-Container {
+  background-color: #ffd384;
+  padding-top:  0px;
+  margin-top: 0px;
+}
+
+#Contact-Us {
+  background-color: #dddddd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*Footer*/
+.Footer {
+  background-color: #ff005c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Footer-Link {
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  size: 30px;
+}
+
+.Footer-Link:hover {
+  color: white;
+}
+
+.End-Line {
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Nav-Item {
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #f8f5f1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Nav-Item:hover {
+  color: #f0e3ca;
+}
+
+.Body-Logo {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  width: 500px;
+  height: 400px;
+  padding-right: 150px;
+  padding-left: 0px;
+}
+
+.Index-Heading {
+  margin-top: 310px;
+  padding-right: 320px;
+  color: #273741;
+  font-size: 2rem;
+  margin-left: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Product-Heading {
+  margin-top: 0px;
+  padding-top: 100px;
+  font-family: 'Merriweather', serif;
+  font-weight:normal;
+}
+
+.P-Head {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.P-Closer {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+}
+
+.Image-1 {
+  width: 150px;
+  height: 160px;
+}
+
+.Writing-1 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Image-2 {
+  width: 150px;
+  height: 160px;
+}
+
+.Writing-2 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Image-3 {
+  width: 150px;
+  height: 160px;
+}
+
+.Writing-3 {
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.End-H {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.End-1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.End-1W {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.Owner-Img {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 100px;
+  margin-right: 200px;
+  width: 300px;
+  height: 300px;
+}
+
+.Owner-W {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Owner-W1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.c-head {
+  padding-top: 60px;
+  padding-bottom: 60px;
+    font-family: 'Merriweather', serif;
+}
+
+.CWP{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.CW{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+/*Buttons*/
+.btn1-w {
+  text-decoration: none;
+}
+
+.btn1-t {
+  color: black;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  word-spacing: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn1-t:hover {
+  color: #7eca9c;
+}
+
+.btn2 {
+  padding-top: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn2:hover {
+  color: black;
+}
+
+/*Horizontal Rule*/
+hr {}
+
+/*Carousel*/
+.Carousel {
+  background-color: #a8df65;
+  margin-bottom: 60px;
+}
+
+.C1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  height: 450px;
+}
+
+.C2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  height: 450px;
+}
+
+.C3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  height: 450px;
+}
+
+.CW {
+  padding-bottom: 30px;
+}
